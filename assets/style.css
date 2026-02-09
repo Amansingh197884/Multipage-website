@@ -46,7 +46,7 @@
         /* --- Hero Section --- */
         .hero-section{
 
-            background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(/images/banner\ new\ p.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(/images/banner.jpg);
             background-size: cover;
             background-position: center;
             height: 100vh;
@@ -104,19 +104,21 @@
             background: #fff;
             cursor: pointer;
             overflow: hidden;
-            
+            border-radius: 10px;
         }
 
         .project-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
             border-color: var(--brand-gold);
+            
         }
 
         .img-wrapper {
             height: 240px;
             overflow: hidden;
             position: relative;
+            
             
         }
 .img-box1 img{
@@ -127,10 +129,12 @@
             height: 100%;
             object-fit: cover;
             transition: 0.6s;
+            
         }
 
         .project-card:hover .img-wrapper img {
             transform: scale(1.1);
+            
         }
 
         /* --- Detailed Styling --- */
