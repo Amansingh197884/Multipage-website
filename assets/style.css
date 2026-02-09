@@ -65,6 +65,9 @@
                 height: 70vh;
                  margin-top: 5px;
             }
+            .contnet-box{
+                margin-top: 25px;
+            }
         }
         @media screen and (min-width:992px){
             .new-hro{
