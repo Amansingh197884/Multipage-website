@@ -207,23 +207,7 @@
             padding: 12px;
         }
 
-        /* Footer */
-        footer {
-            background: #111;
-            color: #fff;
-            padding: 60px 0 30px;
-        }
-
-        footer a {
-            color: #aaa;
-            text-decoration: none;
-            font-size: 14px;
-        }
-
-        footer a:hover {
-            color: var(--brand-gold);
-        }
-
+        
         /* Mobile Responsive */
         @media (max-width: 768px) {
             .hero-section h1 {
@@ -1116,5 +1100,73 @@
 /* new          */
 .bg-dark-4 {
     background-color: #B07E50;
-    color: #fff;
+    color: #ffffff;
 }
+ .footer-section {
+            background-color: #000000;
+            padding: 60px 0 20px 0;
+            color: #ffffff;
+        }
+        
+       
+        .footer-logo {
+            font-weight: 800;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+       
+        .newsletter-form .form-control {
+            border: none;
+            border-bottom: 1px solid #ffffff;
+            border-radius: 0;
+            padding-left: 0;
+            background: transparent;
+        }
+        .newsletter-form .form-control:focus {
+            box-shadow: none;
+            border-bottom: 2px solid #ffffff;
+        }
+        
+        .btn-subscribe {
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            border-radius: 50px;
+            padding: 8px 30px;
+            font-weight: 600;
+        }
+.btn-subscribe:hover{
+    background-color: var(--brand-gold);
+}
+   
+        .footer-link {
+            text-decoration: none;
+            color: #ffffff;
+            display: block;
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+        }
+        .footer-link:hover { color: var(--brand-gold); }
+
+        .social-link {
+            text-decoration: none;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 8px;
+        }
+        .social-link:hover{
+            color: var(--brand-gold);
+        }
+
+        .legal-text { font-size: 0.8rem; color: #ffffff; }
+        
+        hr { border-top: 1px solid #ffffff; opacity: 1; margin: 40px 0 20px 0; }
+        
+        .bottom-links a {
+            text-decoration: underline;
+            color: #ffffff;
+            font-size: 0.85rem;
+            margin-left: 15px;
+        }
