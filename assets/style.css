@@ -63,6 +63,7 @@
         @media screen and (max-width:876px){
             .hero-section {
                 height: 60vh;
+                 margin-top: 5px;
             }
         }
         @media screen and (min-width:992px){
