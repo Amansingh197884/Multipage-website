@@ -12,7 +12,7 @@
 
         /* --- Navbar & Top Bar --- */
         .top-bar {
-            background: #fff;
+            background: transparent;
             border-bottom: 1px solid var(--light-border);
             padding: 8px 0;
             font-size: 13px;
@@ -21,7 +21,7 @@
         .navbar {
             border-bottom: 1px solid var(--light-border);
             padding: 15px 0;
-            background: #fff !important;
+            background: transparent !important;
         }
 
         .navbar-brand {
@@ -46,7 +46,7 @@
         /* --- Hero Section --- */
         .hero-section{
 
-            background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(/images/hero.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.304), rgba(0, 0, 0, 0.295)), url(/images/2hero.jpg);
             background-size: cover;
             background-position: center;
             height: 100vh;

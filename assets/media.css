@@ -1,0 +1,84 @@
+        :root {
+            --gold: #b8962d;
+            --dark: #0f172a;
+            --light-gold: #fcf9f0;
+        }
+
+        body { font-family: 'Poppins', sans-serif; background: #fff; color: #333; overflow-x: hidden; }
+        h1, h2, h3, .price { font-family: 'Playfair Display', serif; }
+
+        /* Main Slider Fixed */
+        .mainSwiper { height: 85vh; width: 100%; }
+        .mainSwiper .swiper-slide img { 
+            width: 100%; height: 100%; object-fit: cover; 
+            transition: transform 8s ease;
+        }
+        .mainSwiper .swiper-slide-active img { transform: scale(1.1); }
+
+        /* Floating Contact Form */
+        .premium-form {
+            background: var(--dark);
+            border-radius: 25px;
+            padding: 30px;
+            color: white;
+            box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5);
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .input-group-custom {
+            background: rgba(255,255,255,0.08);
+            border-radius: 12px;
+            margin-bottom: 15px;
+            padding: 5px 15px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .input-group-custom input, .input-group-custom textarea {
+            background: transparent; border: none; color: white; width: 100%; padding: 10px 0; outline: none;
+        }
+
+        /* Amenities Card */
+        .amenity-card {
+            background: var(--light-gold);
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+            transition: 0.3s;
+            height: 100%;
+        }
+        .amenity-card:hover { background: var(--gold); color: white; }
+        .amenity-card i { font-size: 2.5rem; color: var(--gold); transition: 0.3s; }
+        .amenity-card:hover i { color: white; }
+
+        /* Video Tour Styling */
+        .video-container {
+            position: relative;
+            border-radius: 30px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+        }
+        .play-btn {
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80px; height: 80px;
+            background: var(--gold);
+            border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            color: white; font-size: 2rem;
+            cursor: pointer; z-index: 10;
+            box-shadow: 0 0 0 0 rgba(184, 150, 45, 0.7);
+            animation: pulse-gold 2s infinite;
+        }
+
+        @keyframes pulse-gold {
+            0% { box-shadow: 0 0 0 0 rgba(184, 150, 45, 0.7); }
+            70% { box-shadow: 0 0 0 20px rgba(184, 150, 45, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(184, 150, 45, 0); }
+        }
+
+        /* Stats Section */
+        .stat-item { border-right: 1px solid #eee; }
+        .stat-item:last-child { border-right: none; }
+
+        section { padding: 80px 0; }
+        .section-tag { color: var(--gold); text-transform: uppercase; letter-spacing: 2px; font-weight: 600; font-size: 0.9rem; }
